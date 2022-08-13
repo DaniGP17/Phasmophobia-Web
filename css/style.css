@@ -1,0 +1,152 @@
+@font-face {
+    font-family: CutiveMono;
+    src: url("../fonts/CutiveMono-Regular.ttf");
+}
+
+body{
+    font-family: CutiveMono;
+    background-color: black;
+    color: white;
+}
+
+.titleContainer{
+    text-align: center;
+    height: 200px;
+}
+
+.title {
+    padding-top: 3%;
+    font-size: 2.2vh;
+    font-weight: bold;
+    padding-bottom: 0.2%;
+}
+
+.subtitles {
+    font-size: 2vh;
+    font-family: CutiveMono;
+    padding-top: 20px;
+    max-width: 1300px;
+    margin: 0 auto;
+}
+
+.section {
+    display: flex;
+    width: 100%;
+    padding-top: 6%;
+}
+
+.section2 {
+    display: flex;
+    width: 100%;
+}
+
+.section p{
+    font-size: 2vh;
+}
+
+.imageSection{
+    width: 120%;
+    height: 100%;
+}
+
+.imageSection2{
+    width: 200%;
+    height: 100%;
+}
+
+.right-section{
+    padding-left: 4%;
+    max-width: 80%;
+    padding-top: 3%;
+    margin: 0 auto;
+}
+
+.left-section{
+    padding-left: 4%;
+    
+    max-width: 80%;
+    padding-top: 3%;
+    margin: 0 auto;
+}
+
+.titleSection {
+    font-size: 3.8vh;
+}
+
+.right-section p{
+    width: 80%;
+    font-size: 2.2vh;
+}
+
+.left-section p{
+    width: 100%;
+    font-size: 2.2vh;
+}
+
+.imagenGallery{
+    display: block;
+    overflow: auto;
+    clear: left;
+    margin-left: 2%;
+    padding-top: 5%;
+}
+
+.imagenGallery img{
+    padding: 0.2%;
+    flex: 1;
+    display: flex;
+    width: 23%;
+    float: left;
+    display: inline-block;
+}
+
+.footer {
+    text-align: center;
+}
+
+.footerTitle {
+    font-size: 2.5vh;
+}
+
+.footerDescription {
+    font-size: 2.2vh;
+}
+
+.footerLogos {
+    margin-top: 3%;
+}
+
+.footerLogos img {
+    width: 2.5%;
+}
+
+.footerLinks{
+    text-align: center;
+    margin-top: 1%;
+    margin-bottom: 2%;
+}
+
+.link {
+    color: white;
+    font-size: 2.3vh;
+    float: center;
+    display: inline-block;
+    margin: 0.5%;
+}
+
+a {
+    color: white;
+}
+
+html::-webkit-scrollbar {
+    width: 10px; 
+ }
+
+html::-webkit-scrollbar-track {
+  background-color: black;
+}
+
+html::-webkit-scrollbar-thumb {
+  background: #ffffff;
+  border-radius: 3px;
+}
